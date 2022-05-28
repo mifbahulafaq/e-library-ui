@@ -1,0 +1,58 @@
+.container h1{
+	color:#474747;
+	font-size:1.5em;
+	font-weight:bolder;
+	margin-bottom:20px;
+}
+.top{
+	margin-bottom:10px;
+	padding:0 10px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+.imgWrapper{
+	width:70px;
+}
+.pagin{
+	margin-top:20px;
+}
+.formWrapper{
+	width:40%;
+	box-shadow:0 0 10px rgba(203, 203, 203, 1);
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px;
+	font-size:14px;
+}
+.status{
+	color:#fff;
+	padding:5px 10px;
+	font-size:0.9em;
+	font-weight:bold;
+	border-radius:30px;
+	display:inline-block;
+}
+.returned{
+	background-color:#47C363;
+}
+.borrowed{
+	background-color:#FC544B;
+}
+.svg{
+	text-align:center;
+	font-size:1.2em;
+}
+.svg svg{
+	cursor:pointer;
+}
+.svg svg:first-child{
+	color:blue;
+}
+.svg svg:last-child {
+	color:red;
+	margin-left:10px;
+}

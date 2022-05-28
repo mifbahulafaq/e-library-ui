@@ -1,0 +1,23 @@
+.labelWrapper{
+	display:inline-block;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 10px;
+	border-radius:4px;
+	color:#282828;
+	
+}
+.simple{
+	background-color:#ADB5BD;
+}
+.danger{
+	background-color:#DC3545;
+	color:#fff;
+}
+.success{
+	background-color:#28A745;
+	
+}
+.warning{
+	background-color:#FFC107;
+}

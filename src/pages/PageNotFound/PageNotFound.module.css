@@ -1,0 +1,112 @@
+.container{
+	padding:0 15px;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:space-between;
+	overflow:hidden;
+}
+.bookWrapper{
+	width:100%;
+}
+.top{
+	padding:10px 10px 20px;
+	display:flex;
+	align-items:center;
+	border-bottom:1px solid #DADCE0;
+}
+.search{
+	position:relative;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#F1F3F4;
+	border-radius:8px;
+	padding:8px 20px;
+	height:50px;
+	width:500px;
+}
+.bookSearch{
+	height:100%;
+	width:90%;
+	margin-right:10px;
+	font-size:15px;
+	color:#4d4d4d;
+	background-color:transparent;
+	border: none;
+	outline:none;
+}
+.bookSearch:focus{
+	
+}
+.search svg{
+	color:#00876f;
+	font-size:19px;
+	cursor: pointer;
+}
+.row{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.filter{
+	display:none;
+	padding:20px 20px 10px;
+	position:absolute;
+	left:0;
+	bottom:-150px;
+	width:100%;
+	background-color:#fff;
+	box-shadow: 0 4px 10px #7a7a7a;
+	z-index:100;
+	
+}
+.filter form{
+	width:100%;
+}
+.filter form select{
+	font-weight:bold;
+	color:#68686A;
+	width:150px;
+	padding:5px 10px;
+	border-bottom:1px solid #DADCE0;
+	outline:none;
+}
+.filter form label{
+	color:#84878B;
+}
+.filter form button{
+	float:right;
+	padding:3px 10px;
+	margin-top:20px;
+	background-color:#00876F;
+	font-weight:bold;
+	color:#fff;
+	border-radius:3px;
+	
+}
+.filter form .row{
+	margin-bottom:10px;
+	width:70%;
+}
+.showFilter{
+	display:block;
+}
+.books{
+	margin-top:50px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+}
+.container .books > div{
+	margin:0 50px 20px 0;
+}
+.slideWrapper{
+	margin-left:10px;
+	width:35%;
+	border-radius:5px 0 0 5px;
+	box-shadow: -1px 0px 3px 0.5px rgba(0, 0, 0, 0.15);
+	overflow:hidden;
+    transition-property: margin;
+    transition: 1.5s;
+}

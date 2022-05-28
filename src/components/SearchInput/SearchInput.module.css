@@ -1,0 +1,21 @@
+.wrapper{
+	display:flex;
+	align-items:center;
+}
+.wrapper input{
+	margin-right:1px;
+	padding:4px;
+	border: none;
+	outline:none;
+	border-radius:2px;
+	border-bottom:solid #fff 2px;
+}
+.wrapper input:focus{
+	border-bottom:solid #00876f 2px;
+	
+}
+.wrapper svg{
+	color:#00876f;
+	font-size:22px;
+	cursor: pointer;
+}

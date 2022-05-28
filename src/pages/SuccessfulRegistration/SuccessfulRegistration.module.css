@@ -1,0 +1,20 @@
+.container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.title{
+	margin-top:100px;
+}
+.text{
+	font-size:18px;
+	text-align:center;
+	margin-top:20px;
+}
+.text h1:first-child{
+	line-height:30px;
+}
+.text a{
+	color:blue;
+}

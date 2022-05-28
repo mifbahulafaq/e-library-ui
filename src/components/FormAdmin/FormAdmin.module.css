@@ -1,0 +1,60 @@
+.form{
+	width:100%;
+}
+.form > div{
+	margin-bottom:20px;
+}
+.form .row{
+	position:relative;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+/*.form .row:nth-last-of-type(2){
+	justify-content:flex-start;
+}*/
+.column{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+}
+.row > label{
+}
+.form select:focus{
+	border:solid #1EBBD7 1px;
+}
+.radio{
+	display:flex;
+	align-items:center;
+}
+.radio > div{
+	margin-right:10px;
+}
+.error{
+	margin-left:16px;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	color:red;
+}
+.btn button{
+	color:#fff;
+	font-weight:bold;
+	padding:5px 15px;
+	border-radius:5px;
+}
+.add{
+	background-color:#166FE5;
+}
+.add:hover{
+	background-color:#428df0;
+}
+.remove{
+	margin-left:20px;
+	background-color:#d71414;
+}
+.remove:hover{
+	background-color:#ff0000;
+}

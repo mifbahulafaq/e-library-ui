@@ -1,0 +1,78 @@
+.formRackCategory{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	padding:5px 0 0 5px;
+}
+.formRackCategory .searchRackCategory{
+	box-shadow:0 0 3px rgba(203, 203, 203, 1);
+	width:80%;
+	height:8%;
+	margin-bottom:10px;
+}
+.formRackCategory .searchRackCategory input {
+	width:90%;
+	height:100%;
+	padding:5px;
+	outline:none;
+}
+.formRackCategory .searchRackCategory span {
+	font-weight:bolder;
+	font-size:1.2em;
+	color:#00876f;
+	cursor:pointer;
+}
+.formRackCategory .tableRackCategory{
+	position:relative;
+	width:95%;
+	height:80%;
+	color:#3c3c3c;
+	border-radius:7px 7px 0 0;
+	box-shadow:0 0 3px rgba(203, 203, 203, 1);
+	overflow:hidden;
+}
+.formRackCategory .tableRackCategory table{
+	width:100%;
+}
+.formRackCategory tr:hover{
+	background-color:#999999;
+	color:#fff;
+}
+.formRackCategory td{
+	padding:10px;
+	border-bottom:solid #999999 1px ;
+}
+.formRackCategory .tableRackCategory table svg{
+	cursor:pointer;
+}
+.formRackCategory .tableRackCategory table svg:first-child{
+	margin-right:5px;
+	color:#f44336;
+}
+.addRackCategory{
+	margin:auto;
+	position:sticky;
+	margin-top:5px;
+	bottom:0;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	box-shadow:0 0 3px rgba(203, 203, 203, 1);
+}
+.addRackCategory input{
+	width:80%;
+	outline:none;
+	padding:5px;
+}
+.addRackCategory div{
+	width:20%;
+	height:100%;
+	padding:7px;
+	text-align:center;
+	background-color:#00876f;
+	font-weight:bolder;
+	color:#fff;
+	cursor:pointer;
+}

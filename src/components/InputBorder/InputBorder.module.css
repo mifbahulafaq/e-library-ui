@@ -1,0 +1,20 @@
+.inputWrapper input{
+	width:100%;
+	padding:7px;
+	border-radius:5px;
+	outline:none;
+	border:solid #bababa 1px;
+	font-size:14px;
+}
+.inputWrapper input:focus{
+	border:solid #1EBBD7 1px;
+}
+.inputWrapper input::placeholder{
+	color:rgba(82, 82, 82, 0.21);
+}
+.inputWrapper h1{
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	color:red;
+}

@@ -1,0 +1,82 @@
+.wrapper{
+	width:100%;
+	height:370px;
+	display:grid;
+	grid-template-columns: 75% auto;
+	grid-template-rows:auto 18%;
+	column-gap:10px;
+	border-radius:0 5px 5px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-left:5px solid #00876f;
+	position:relative;
+}
+.cancelDetail{
+	position:absolute;
+	left:-5px;
+	top:-30px;
+	padding:5px 15px;
+	font-weight:bolder;
+	background-color:#fff;
+	border-radius:5px 0 0 0;
+	box-shadow: 0px -3px 8px -5px rgba(0, 0, 0, 0.24) ;
+	border-left:5px solid #00876f;
+	cursor: pointer;
+}
+.detail, .book, .action{
+	padding:20px;
+}
+.detail table{
+	width:100%;
+	text-align:left;
+}
+.detail tr{
+	border-bottom:1px solid #c9c9c9;
+}
+.detail th, .detailBook th{
+	display:flex;
+	justify-content:space-between;
+}
+.detail th, .detail td{
+	padding:10px;
+}
+.payment{
+	display:flex;
+	align-items:center;
+	width:380px;
+}
+.payment .inputPay{
+	margin-left:10px;
+	width:100px;
+}
+.payment span{
+}
+.btnPay{
+	margin-left:5px;
+}
+.book{
+	background-color:rgba(231, 231, 231, 0.5);
+	grid-row:1 / span 2;
+	grid-column:2 / span 2;
+}
+.book .img{
+	margin:auto;
+	width:180px;
+}
+.book p{
+	text-align:center;
+	font-size:11px;
+	margin-top:5px;
+}
+.detailBook{
+	display:flex;
+	flex-direction:column;
+	margin-top:10px;
+}
+.detailBook th, .detailBook td{
+	padding:3px;
+}
+.detailBook span{
+	margin-left:10px;
+}
+.action{
+}

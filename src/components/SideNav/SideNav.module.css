@@ -1,0 +1,110 @@
+.sideNav{
+	height:100%;
+	width:100%;
+	background-color:#05f2c7;
+	border-radius:0 15px 15px 0;
+	padding:30px 0 20px 15px;
+	display:flex;
+	flex-direction:column;
+}
+.sideNav li{
+	position:relative;
+}
+.sideNav li h1{
+	margin-top:8px;
+	font-weight:bolder;
+}
+.sideNav li svg{
+	font-size:20px;
+}
+.sideNav li.menu a, .sideNav li .link{
+	padding:10px 20px 10px 0;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	border-radius:33px 0px 0px 33px;
+	border-left:none;
+}
+.sideNav li a.active, .sideNav li .link.active{
+	background-color:#fff;
+	color:#00876F;
+}
+.sideNav li .link.click{
+	background-color:rgba(254, 254, 254, 0.34);
+}
+.sideNav li.menuDropdown .link::before{
+	position:absolute;
+	top:25px;
+	right:30px;
+	content:'';
+	border-top:7px solid transparent;
+	border-bottom:7px solid transparent;
+	border-left:7px solid black;
+	z-index:100;
+	
+}
+.sideNav li.menuDropdown .link.rotate::before{
+	transform: rotate(90deg);
+}
+.sideNav li.menuDropdown .link.active::before{
+	border-left:7px solid #00876F;
+}
+.sideNav li .menuName{
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.sideNav li .top, .sideNav li .bottom{
+	position:absolute;
+	right:0;
+	display:none;
+	width:30px;
+	height:17px;
+}
+.sideNav li div.top{
+	top:-17px;
+}
+.sideNav li div.bottom{
+	bottom:-17px;
+}
+.sideNav li div.top::before, .sideNav li div.bottom::before{
+	background:#05f2c7;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	content:'';
+	display:inline-block;
+}
+.sideNav li div.top::before{
+	border-radius:0px 0px 100px 0px;
+}
+.sideNav li div.bottom::before{
+	border-radius:0px 100px 0px 0px;
+}
+.sideNav li a.active div.top, .sideNav li a.active div.bottom, .sideNav li .link.active div.top, .sideNav li .link.active div.bottom{
+	display:initial;
+	background-color:#fff;
+}
+.sideNav li .link.click div.top, .sideNav li .link.click div.bottom{
+	display:none;
+}
+.sideNav li .link .dropDown{
+	margin-top:10px;
+	height:0px;
+	padding-left:25px;
+	font-weight:bolder;
+	flex-direction:column;
+	justify-content:center;
+	overflow:hidden;
+    transition:height 0.5s;
+}
+.sideNav li .link .dropDown.playDropdown{
+	display:flex;
+	height:50px;
+}
+.sideNav li .link  .dropDown li:nth-child(2){
+	margin-top:8px;
+}
